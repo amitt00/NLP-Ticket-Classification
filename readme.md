@@ -16,14 +16,15 @@ therefore, help in the quick resolution of the issue.
 
 # Result: Optimum result using Logistic Regression
       
-                               precision   recall   f1-score   support
+| Topic                            | Precision | Recall | F1-score | Support |
+| -------------------------------- | --------- | ------ | -------- | ------- |
+| Bank Account services            | 0.93      | 0.95   | 0.94     | 1303    |
+| Credit card or prepaid card      | 0.94      | 0.93   | 0.93     | 1290    |
+| Mortgage/Loan                    | 0.95      | 0.89   | 0.92     | 548     |
+| Theft Reporting                  | 0.91      | 0.90   | 0.91     | 1204    |
+| Others                           | 0.93      | 0.95   | 0.94     | 923     |
+|                                  |           |        |          |         |
+| Accuracy                         |           |        | 0.93     | 5268    |
+| Macro average                    | 0.93      | 0.92   | 0.93     | 5268    |
+| Weighted average                 | 0.93      | 0.93   | 0.93     | 5268    |
 
-      Bank Account services       0.93      0.95      0.94      1303       -->Topic 1
-Credit card or prepaid card       0.94      0.93      0.93      1290       -->Topic 2
-              Mortgage/Loan       0.95      0.89      0.92       548       -->Topic 3
-            Theft Reporting       0.91      0.90      0.91      1204       -->Topic 4
-                     Others       0.93      0.95      0.94       923       -->Topic 5
-
-                   accuracy                           0.93      5268
-                  macro avg       0.93      0.92      0.93      5268
-               weighted avg       0.93      0.93      0.93      5268
