@@ -1,18 +1,20 @@
-Environment: A financial company wants to automate its customer support tickets system. 
-             As a financial company, the firm has many products and services such as credit cards, banking and mortgages/loans. 
+# Environment: 
+A financial company wants to automate its customer support tickets system. 
+As a financial company, the firm has many products and services such as credit cards, banking and mortgages/loans. 
 
-Buisness Objective: To build a model that is able to classify customer complaints based on the products/services that the ticket mentions.
-                    By doing so, one can segregate these tickets into their relevant categories and, 
-                    therefore, help in the quick resolution of the issue.
+# Buisness Objective: 
+To build a model that is able to classify customer complaints based on the products/services that the ticket mentions.
+By doing so, one can segregate these tickets into their relevant categories and, 
+therefore, help in the quick resolution of the issue.
 
-Opted Methodology : 
+# Opted Methodology : 
            1) Apply NMF to analyse patterns and classify tickets into clusters based on their products/services.
            2) Coherence Model for optimum topics/clusters->(5)
            3) Map each ticket onto its respective department/category.
            4) Use this data to train supervised model( Naive Bayes/logistic regression/decision tree/random forest)
            5) Using trained model, classify new customer complaint support ticket into its relevant department.
 
-Result: Optimum result using Logistic Regression
+# Result: Optimum result using Logistic Regression
       
                                precision   recall   f1-score   support
 
